@@ -1,50 +1,71 @@
-<!--en el archivo html dentro del body -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <h1 class="titulo">PetDog & Amigos</h1>
+    </header>
+
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal"> <!--las class nos permiten tener mas de un elemento para despues darle estilo, en este caso tenemos navegacion-principal y podriamos colocar otra ej: contenedor-->
+            <a href="#">Inicio</a>  <!--el # es por mientras, de alli se rellenara con el enlace correspondiente-->
+            <a href="#">Quienes Somos</a>
+            <a href="#">Galeria De Fotos</a>
+        </nav>
+    </div>
+
+    <section class="sectionimagen">
+        <div class="contenidoimagen">
+            <h3>El mejor alimento para tu mascota lo encuentras aqui en:</h3>
+        </div>
+    </section>
+
+    <main class="contenedormain">
+        <section class="contenedor">
+            <h2>Quienes Somos</h2>
+            <p>PetDog & Amigos es una tienda online dedicada a la venta de alimentos saludables para tu mascota. Creemos que es sumamente importante poder alimentar a nuestras mascotas con productos de la mejor calidad......</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paw" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M14.7 13.5c-1.1 -2 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z" />
+                <path d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052z" />
+                <path d="M9.474 9c.055 0 .109 0 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 0 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z" />
+                <path d="M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z" />
+                <path d="M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z" />
+              </svg>
+        </section>
+        <section class="contenedor">
+            <h2>Objetivo</h2>
+            <p>Nuestro objetivo es poder llegar a todo Chile para orientarte a elegir el mejor alimento para tu mascota.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dog-bowl" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 15l5.586 -5.585a2 2 0 1 1 3.414 -1.415a2 2 0 1 1 -1.413 3.414l-3.587 3.586" />
+                <path d="M12 13l-3.586 -3.585a2 2 0 1 0 -3.414 -1.415a2 2 0 1 0 1.413 3.414l3.587 3.586" />
+                <path d="M3 20h18c-.175 -1.671 -.046 -3.345 -2 -5h-14c-1.333 1 -2 2.667 -2 5z" />
+              </svg>
+        </section>
+    </main>
+
+
+    <article>
+        <div class="contenedordestacado">
+            <h2>Destacado</h2>
+            <img class="imagenperrogato" src="../imagenes/perroygato.png.png" alt="perrogato">
+            <p>El mas vendido de la semana</p>
+            <a href="https://www.instagram.com/reel/C4Q5VQSJF9W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Haz click aqui</a>
+        </div>
+    </article>
+
+    <footer class="derechos">
+        <p>derechos reservados</p>
+    </footer>
     
-<div class="nav-bg">
-    <nav class="navegacion-principal contenedor"> <!--navegacion-princiapl y contenedor(dos atributos de class)-->
-        <a href="#">Inicio</a> 
-        <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
-    </nav>
-</div>
-
-
-
-<!--en la carpeta css-->
-
-.nav-bg{
-
-background-color: rgb(2, 104, 104); /*para el color de fondo de la barra de menu*/
-}
-
-.contenedor{ 
-
-max-width: 120rem; /*tomara el maximo de 1200 megapixeles.... esto es complementario para el tema de lo responsive */
-margin:0 auto;
-
-}
-
-.navegacion-principal{
-
-display: flex; /*se habilitan los elementos de izquierda a derecha .. ademas habilita las propiedades de flexbock tendremos accesos a nuevas propiedades */  
-justify-content: space-around ; /*justify content los distribuye horizontalmente.... space between los separa*/ 
-
-}
-
-.navegacion-principal a { /*para modificar las palabras dentro del menu*/
-
-text-decoration: none; /*para eliminar el subrayado de los enlaces*/
-color:aliceblue; /*color a las palabras*/
-font-size: 2rem;
-font-weight: bold; /*para dejar la palabra en negrita*/
-padding: 1rem; /*esto hara que todo el entorno de las letras al llevar el puntero se visualice 
-el color que coloque abajo en .navegacion-principal a:hover ... sera de color negro*/
-
-}
-
-.navegacion-principal a:hover{ /* esto hace que las palabras de la clase de navagacion-principal a tomen un color de fondo (color chocolate que fue el que elegi) al llevar el puntero */
-background-color: chocolate;
-color:black; /*cambiara el color de las palabras al acercar el puntero eran blancas queran en negras*/
-
-}
+</body>
+</html>

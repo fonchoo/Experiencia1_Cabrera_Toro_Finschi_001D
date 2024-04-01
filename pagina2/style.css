@@ -1,0 +1,72 @@
+body{
+    font-size: 16px;
+    background-color:rgb(244, 217, 150);
+
+
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+.nav-bg{
+    background-color:rgb(234, 191, 74);
+}
+
+
+.navegacion-principal{
+    display: flex; /*elementos se ordenan de izquierda a derecha .. ademas habilita propiedades de flexbock*/
+    justify-content:space-around; /*distribuye los elementos horizontalmente .. space around los distribuye mas central */
+}
+
+
+.navegacion-principal a{
+    text-decoration: none; /*elimina el subrayado de los enlaces*/
+    color: aliceblue;
+    font-size: 1.5rem; /*1 rem equivale a 10px .. el rem se adapta mejor a los dispositivos con gran cantidad de megapixeles*/
+    padding: 0.5rem; /*relleno de la palabra dentro de los bordes definidos*/
+}
+
+.navegacion-principal a:hover { /*hoover hace que las palabras dentro de navegacion principal realicen ciertas cosas al acercar el puntero*/
+    background-color: rgb(176, 171, 171); /*color del fondo*/
+    color: black; /*color de las letras al pasar el cursor*/
+}
+
+.sectionimagen{
+    background-image: url(../imagenes/logoentero.png);/*la imagene al estar en otra carpeta se coloca .. y despues donde se encuentra*/
+    background-repeat: no-repeat;
+    background-size: cover; /*toma todo el ancho*/
+    height:280px; /*dara el ancho de la imagen a visualizar*/
+    position: relative; /*esto hara que en contenido-hero al colocar postion absolute tendra la imagen del color sombreado que buscamos */
+    margin-bottom: 2rem;/*esto es para separar esta clase con el main */
+}
+
+h3{
+
+    text-align: center;
+    line-height: 4; /*separacion del borde hacia arriba de la frase quienes somos */
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.imagenperrogato{
+    
+    height: 100px;
+
+}
+
+
+.contenedordestacado{
+    text-align: center;
+}
+
+
+
