@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/miStyle.css">
     <title>Acana</title>
 
     <style>
         body{
             background-color: blanchedalmond;
-        
         }
         .contenedor {
             display: flex; 
@@ -17,47 +17,64 @@
             padding: 0px; 
             align-items: auto; 
         }
-
-
         .contenedor img {
             max-width: 60%; 
             height: auto; 
             margin-left: 0px; 
         }
-
-
         .contenedor p {
             padding: 10px; 
             max-width: 60%;
-            font-size: 40px; 
+            font-size: 40px;
+            text-indent: 0px; /* Sangría para todas las líneas */
+        }
+        .contenedor .descripcion {
+            margin-left: 20px; /* Mueve la descripción hacia la izquierda */
+        }
+        .precio {
+            margin-left: 100px; /* Mueve la línea del precio a la derecha */
         }
         footer {
             border-top: 1px solid black; 
             padding-top: 10px; 
             text-align: center; 
         }
-
         footer a {
             display: block; 
             margin-bottom: 5px;
             font-size: 20px;
         }
-
     </style>
-
 </head>
 
 <body>
-
     <div class="contenedor">
-        <img src="images/Acana.png" alt="Texto alternativo">
+        <img src="images/Acana.png" alt="Acana Light & Fit">
         <p>Nombre: Acana Light & Fit <br>
-           Valor: $60.000 11.3 kilos, $40.000 5.9 kilos<br>
-           Descripción:jajalol<br>
+           Valor: $60.000 11.3 kilos<br>
+           <span class="precio">$40.000 5.9 kilos<br></span>
+           <span class="descripcion">Descripción: jajalol<br></span>
         </p>
     </div>
-    <footer>
-        <a href="galeria.html">Volver</a>
-
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>INTEGRANTES</h2>
+                <p>Esteban Toro</p>
+                <p>Macarena Cabrera</p>
+                <p>Patricio Finschi</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/PetDogyAmigos" id="face" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/petdogyamigos" id="insta" class="fa fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>PET DOG & AMIGOS</b> -  Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>
