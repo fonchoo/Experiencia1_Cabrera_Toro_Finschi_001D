@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="CSS/styleP.css">
+    <script src="https://kit.fontawesome.com/f879910058.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Menu Header -->
+    <h1 align="center">PetDog & Amigos</h1>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor"> <!--navegacion-princiapl y contenedor(dos atributos de class)-->
+            <img class="img-nav" src="img/logo.jpg" alt="">
+            <a href="index.html">Inicio</a> 
+            <a href="#">Quienes Somos</a>
+            <a href="#">Galeria</a>
+        </nav>
+    </div>
+    <!-- Carrusel de imagenes -->
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="card">
+                    <img id="slider-1" src="img/img 2.jpg" class="card-img" alt="">
+                </div>
+                <div class="card">
+                    <img id="slider-2" src="img/img 3.jpg" class="card-img" alt="" >
+                </div>   
+                <div class="card">
+                    <img id="slider-3" src="img/img 4.jpg" class="card-img" alt="" >
+                </div> 
+                <div class="card">
+                    <img id="slider-4" src="img/img 5.jpg" class="card-img" alt="">
+                </div>
+            </div>   
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+            </div>           
+        </div>          
+    </section>
+    <!-- Informacion Pagina -->
+    <div class="container-1">
+        <div class="informacion">
+            <h1>Horario de Atencion</h1>
+            <br>
+            <p>Lunes a Viernes <br> 09:00 a 18:00horas</p>
+            <i class="fa-regular fa-clock"></i>
+            <p>Domingo y Festivos <br> 12:00 a 18:00horas</p>
+        </div>
+    </div>
+    <br>
+    <div class="container-2">
+        <p class="parr">Las mascotas son más que compañeros peludos, son una parte esencial de nuestras vidas. Nos brindan alegría, amor y consuelo en los momentos más dificultosos. Es nuestro deber y privilegio asegurarnos de que nuestras mascotas estén protegidas y cuidadas adecuadamente. Descubre cómo podemos devolverles ese amor incondicional y brindarles el cuidado que se merecen.</p>
+        <br>
+        <p class="parr">Proteger a nuestras mascotas va más allá de una simple responsabilidad, es una muestra de amor verdadero. Queremos que nuestras mascotas se sientan amadas y seguras, y eso implica brindarles una buena alimentación, atención veterinaria regular y un entorno estimulante. Además, al tomar medidas para prevenir y denunciar el maltrato animal, podemos promover una sociedad en la que todas las mascotas sean tratadas con respeto y dignidad. ¡Imagínate el impacto positivo que podemos tener en el bienestar de nuestros amigos peludos!</p>
+    </div>
+
     
+    <!-- Footer pagina  -->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>INTEGRANTES</h2>
+                <p>Esteban Toro</p>
+                <p>Macarena Cabrera</p>
+                <p>Patricio Finschi</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/PetDogyAmigos" id="face" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/petdogyamigos" id="insta" class="fa fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>PET DOG & AMIGOS</b> -  Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 </body>
 </html>
