@@ -37,10 +37,12 @@ body{
     background-image: url(../imagenes/logoentero.png);/*la imagene al estar en otra carpeta se coloca .. y despues donde se encuentra*/
     background-repeat: no-repeat;
     background-size: cover; /*toma todo el ancho*/
-    height:320px; /*dara el ancho de la imagen a visualizar*/
-    position: relative; /*esto hara que en contenido-hero al colocar postion absolute tendra la imagen del color sombreado que buscamos */
+    background-position: center center; /*deja visible mas el centro de la imagen*/
+    height: 320px; /*dara el ancho de la imagen a visualizar*/
     margin-bottom: 2rem;/*esto es para separar esta clase con el main */
 }
+
+
 
 h2{
 
@@ -50,9 +52,9 @@ h2{
 
 .contenedor{
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /*de izquierda a derecha*/
+    flex-direction: column; /*ordenado en columnas*/
+    align-items: center; /*centrado*/
 }
 
 
@@ -85,6 +87,8 @@ h2{
     border-radius: 2rem;/*esquinas redondeadas*/
 
 }
+
+
 
 /*pie de pagina*/
 /* Codigo para el pie de pagina o footer */
