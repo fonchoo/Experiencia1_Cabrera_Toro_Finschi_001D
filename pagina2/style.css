@@ -37,7 +37,7 @@ body{
     background-image: url(../imagenes/logoentero.png);/*la imagene al estar en otra carpeta se coloca .. y despues donde se encuentra*/
     background-repeat: no-repeat;
     background-size: cover; /*toma todo el ancho*/
-    height:280px; /*dara el ancho de la imagen a visualizar*/
+    height:320px; /*dara el ancho de la imagen a visualizar*/
     position: relative; /*esto hara que en contenido-hero al colocar postion absolute tendra la imagen del color sombreado que buscamos */
     margin-bottom: 2rem;/*esto es para separar esta clase con el main */
 }
@@ -84,5 +84,95 @@ h2{
     padding: 3rem; /*para la separacion de arriba*/
     border-radius: 2rem;/*esquinas redondeadas*/
 
+}
+
+/*pie de pagina*/
+/* Codigo para el pie de pagina o footer */
+
+.pie-pagina{
+    width: 100%;
+    background-color: dimgray;
+    margin-top: 100px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 50%;
+}
+
+#face:hover{
+    color: aqua;  
+}
+
+#insta:hover{
+    color: fuchsia;
+}
+/* Hasta aca se edita como se vera el nombre de los integrantes y el mostrar
+las redes sociales*/
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-widht:800px) {
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px
+    }
+    
 }
 
