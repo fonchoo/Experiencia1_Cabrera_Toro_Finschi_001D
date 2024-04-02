@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes Somos</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </head>
 <body>
 
@@ -58,9 +59,15 @@
     <article class="contenedorarticle">
         <div class="contenedordestacado">
             <h2>Destacado</h2>
-            <img class="imagenperrogato" src="../imagenes/perroygato.png.png" alt="perrogato">
-            <p>El mas vendido de la semana</p>
-            <a href="https://www.instagram.com/reel/C4Q5VQSJF9W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Haz click aqui</a>
+            <button id="btnMostrarVideo" class="btn">Haz click aqui para</button>
+
+            <div id="contenedorVideo" style="display: none;">
+                <video id="miVideo" width="360" height="240" controls>
+                    <source src="../videos/videopetdog.mp4" type="video/mp4">
+                    Tu navegador no admite el elemento de video.
+                </video>
+            </div>
+
         </div>
     </article>
 
@@ -85,5 +92,6 @@
             <small>&copy; 2024 <b>PET DOG & AMIGOS</b> -  Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>
