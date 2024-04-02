@@ -7,23 +7,19 @@
     <title>TasteWild</title>
 
     <style>
-        body{
-            background-color: blanchedalmond;
-        
-        }
+
         .contenedor {
             display: flex; 
             flex-direction: row; 
             border: 1px solid black; 
-            padding: 0px; 
             align-items: auto; 
         }
 
 
         .contenedor img {
             max-width: 60%; 
-            height: 600px; 
-            margin-left: 0px; 
+            height: auto; 
+
         }
 
 
@@ -32,11 +28,16 @@
             max-width: 60%;
             font-size: 40px; 
         }
-        .contenedor .descripcion {
-            margin-left: 20px; /* Mueve la descripción hacia la izquierda */
+        footer {
+            border-top: 1px solid black; 
+            padding-top: 10px; 
+            text-align: center; 
         }
-        .precio {
-            margin-left: 100px; /* Mueve la línea del precio a la derecha */
+
+        footer a {
+            display: block; 
+            margin-bottom: 30px;
+            font-size: 20px;
         }
 
     </style>
@@ -44,12 +45,21 @@
 </head>
 
 <body>
-
+    <!-- Menu Header -->
+    <h1 align="center">PetDog & Amigos</h1>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor"> <!--navegacion-princiapl y contenedor(dos atributos de class)-->
+            <img class="img-nav" src="images/logo.jpg" alt="">
+            <a href="index.html">Inicio</a> 
+            <a href="#">Quienes Somos</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+    </div>
     <div class="contenedor">
-        <img src="images/images.jpg" alt="Texto alternativo">
+        <img src="images/taste.jpg" alt="Taste of the wild">
         <p>Nombre: Taste of the wild <br>
-           Valor: $24.000 2.7 kilos, 6.8 kilos $44.000<br>
-           Descripción:jajalol<br>
+           Valor: $24.000<br>
+           Descripción:Son ideales para los gatos debido a su formulación de ingredientes naturales y nutritivos, que satisfacen las necesidades dietéticas de los felinos, como proteínas de alta calidad, vitaminas y minerales esenciales.<br>
         </p>
     </div>
     <footer class="pie-pagina">
