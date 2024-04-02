@@ -65,7 +65,7 @@ h2{
 
 
 .contenedormain{
-    max-width: 50rem; /*porte del main*/
+    max-width: 50rem; /*ancho del main*/
     margin: 0 auto; /*dejo el cuadrado centrado*/
     padding: 1.5rem; /*texto del main lo separada con el cuadrado creado en 50rem*/
     margin-bottom: 3rem; /*separacion del main con el article*/
@@ -81,13 +81,15 @@ h2{
 
 
 .btn{
-    display: inline-block; 
-    padding: 1rem 2rem; /*largo ancho del boton*/
+    display: inline-block; /*enlace se comportara como un bloque, podremos determinar un ancho y alto*/
+    padding: 0.4rem 0.8rem; /*largo ancho del boton*/
     background-color:rgb(244, 217, 150); 
     color: #fff;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    border: none;
+    text-decoration: none; /*eliminacion subrayado*/
+    border-radius: 0.5rem; /*esquinas redondeadas*/
+    border: none; /*cualquier elemento que rodea se eliminara*/
+    font-weight: bold;
+    font-size: 1.2rem; /*agrandar textos*/
 }
 
 .btn:hover {
@@ -199,4 +201,5 @@ las redes sociales*/
     }
     
 }
+
 
