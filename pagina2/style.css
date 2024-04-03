@@ -77,15 +77,6 @@ h2{
 }
 
 
-.btn{
-    color:black;
-    font-size: 1.2rem; /*agrandar textos*/
-}
-
-.btn:hover {
-    background-color: rgb(176, 171, 171); 
-}
-
 
 
 .contenedordestacado{ /*ver esto*/
@@ -93,20 +84,35 @@ h2{
 }
 
 .contenedorarticle{
+    background-image: url(../imagenes/marcas.png);
     background-color: rgb(248, 248, 248);
-    max-width: 53rem; /*ancho maximo que tendra dentro del contenedor de la pagina*/
+    max-width: 0 auto; /*ancho maximo que tendra dentro del contenedor de la pagina*/
     margin: 0 auto;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 2rem;
-
-}
-
-.titulovideo{ /*separar conoce a nuestro clientes*/
 
 
 }
+
+h3{
+    color:#fff;
+    background-color:black;
+    display: inline-block; /*enlace se comportara como un bloque, podremos determinar un ancho y alto*/
+    padding: 0.3rem 0.6rem; /*largo ancho del boton*/
+}
+
+.btn{
+    color:rgb(255, 248, 248);
+    font-size: 1.2rem; /*agrandar textos*/
+    background-color:rgb(244, 217, 150) ;
+}
+
+.btn:hover{
+
+    background-color: rgb(176, 171, 171); 
+}
+
 
 .btnvideo{
     display: inline-block; /*enlace se comportara como un bloque, podremos determinar un ancho y alto*/
