@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes Somos</title>
     <link href="style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/f879910058.js" crossorigin="anonymous"></script> <!--iconos redes sociales-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> <!--codigo para javascript-->
 </head>
 <body>
 
@@ -18,7 +19,7 @@
     <div class="nav-bg">
         <nav class="navegacion-principal"> <!--las class nos permiten tener mas de un elemento para despues darle estilo, en este caso tenemos navegacion-principal y podriamos colocar otra ej: contenedor-->
             <a href="index.html">Inicio</a>  <!--el # es por mientras, de alli se rellenara con el enlace correspondiente-->
-            <a href="#">Quienes Somos</a>
+            <a href="pagina">Quienes Somos</a>
             <a href="#">Galeria De Fotos</a>
         </nav>
     </div>
@@ -50,16 +51,15 @@
               </svg>
             <br>
             <h3>Si quieres saber mas sobre nuestros productos:</h3>
-            <a href="mailto:petdogyamigos@gmail.com" class="btn">Pincha aquí para enviar un correo</a>
+            <a href="mailto:petdogyamigos@gmail.com" class="btn">Pincha aquí para enviar un correo 📩</a>
 
         </section>
     </main>
 
-
     <article class="contenedorarticle">
-        <div class="contenedordestacado">
-            <h2>Destacado</h2>
-            <button id="btnMostrarVideo" class="btn">Haz click aqui para</button>
+        <div class="contenedordestacado"><!--ver esto -->
+            <h2 class="">🐶Conoce a nuestros clientes🐱</h2>
+            <button id="btnMostrarVideo" class="btnvideo">Haz click aqui para verlos</button>
 
             <div id="contenedorVideo" style="display: none;">
                 <video id="miVideo" width="360" height="240" controls>
@@ -69,7 +69,8 @@
             </div>
 
         </div>
-    </article>
+    </article>     
+
 
 
     <footer class="pie-pagina">
@@ -92,6 +93,6 @@
             <small>&copy; 2024 <b>PET DOG & AMIGOS</b> -  Todos los Derechos Reservados.</small>
         </div>
     </footer>
-    <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script> <!--codigo javascript-->
 </body>
 </html>
