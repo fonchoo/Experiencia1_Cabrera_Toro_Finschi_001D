@@ -3,56 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/miStyle.css">
+    <link rel="stylesheet" href="css/miStyle.css">
     <title>TasteWild</title>
 
     <style>
-
+        /* Estilos para el contenedor principal */
         .contenedor {
-            display: flex; 
-            flex-direction: row; 
-            border: 1px solid black; 
-            align-items: auto; 
+            display: flex; /* Utiliza Flexbox para el diseño */
+            flex-direction: row; /* Los elementos secundarios se colocan en una fila */
+            border: 1px solid black; /* Borde de 1px sólido negro */
+            align-items: auto; /* Alinea los elementos secundarios verticalmente automáticamente */
         }
 
-
+        /* Estilos para la imagen dentro del contenedor */
         .contenedor img {
-            max-width: 100%; 
-            height: auto; 
-
+            max-width: 100%; /* La imagen se ajusta al ancho máximo del contenedor */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
         }
 
-
+        /* Estilos para el párrafo dentro del contenedor */
         .contenedor p {
-            padding: 10px; 
-            max-width: 100%;
-            font-size: 40px; 
+            padding: 10px; /* Añade un relleno de 10px alrededor del párrafo */
+            max-width: 100%; /* El párrafo se ajusta al ancho máximo del contenedor */
+            font-size: 40px; /* Tamaño de fuente del párrafo */
         }
-
-
-
     </style>
-
 </head>
 
 <body>
-    <!-- Menu Header -->
+    <!-- Encabezado -->
     <h1 align="center">PetDog & Amigos</h1>
+
+    <!-- Barra de navegación -->
     <div class="nav-bg">
-        <nav class="navegacion-principal contenedor"> <!--navegacion-princiapl y contenedor(dos atributos de class)-->
-            <img class="img-nav" src="images/logo.jpg" alt="">
-            <a href="index.html">Inicio</a> 
-            <a href="#">Quienes Somos</a>
-            <a href="galeria.html">Galeria</a>
+        <nav class="navegacion-principal contenedor">
+            <img class="img-nav" src="images/logo.jpg" alt=""> <!-- Logo -->
+            <a href="index.html">Inicio</a> <!-- Enlace a la página de inicio -->
+            <a href="#">Quienes Somos</a> <!-- Enlace a la página "Quienes Somos" -->
+            <a href="galeria.html">Galeria</a> <!-- Enlace a la galería -->
         </nav>
     </div>
+
+    <!-- Contenedor principal -->
     <div class="contenedor">
-        <img src="images/taste.jpg" alt="Taste of the wild">
-        <p>Nombre: Taste of the wild <br>
-           Valor: $24.000<br>
-           Descripción:Son ideales para los gatos debido a su formulación de ingredientes naturales y nutritivos, que satisfacen las necesidades dietéticas de los felinos, como proteínas de alta calidad, vitaminas y minerales esenciales.<br>
+        <img src="images/taste.jpg" alt="Taste of the wild"> <!-- Imagen del producto -->
+        <p>
+            Nombre: Taste of the wild <br> <!-- Información sobre el producto -->
+            Valor: $24.000<br>
+            Descripción: Son ideales para los gatos debido a su formulación de ingredientes naturales y nutritivos, que satisfacen las necesidades dietéticas de los felinos, como proteínas de alta calidad, vitaminas y minerales esenciales.<br>
         </p>
     </div>
+
+    <!-- Pie de página -->
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -73,8 +75,5 @@
             <small>&copy; 2024 <b>PET DOG & AMIGOS</b> -  Todos los Derechos Reservados.</small>
         </div>
     </footer>
-    
-
-
 </body>
 </html>
