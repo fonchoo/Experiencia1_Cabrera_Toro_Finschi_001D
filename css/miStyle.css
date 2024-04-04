@@ -14,10 +14,11 @@ h1{
 .contenedor-imagenes {
     display: flexbox; /* Utilizamos flexbox para alinear las imágenes */
     flex-wrap: wrap; /* Permitimos que las imágenes se envuelvan en filas */
-    justify-content: space-between; /* Centramos las imágenes horizontalmente */
+    justify-content: center; /* Centramos las imágenes horizontalmente */
     flex-direction: row; /* Los elementos secundarios se colocan en una fila */
     max-width: 120rem;
     align-items: auto;
+    height: auto;
 
 }
 
@@ -35,36 +36,46 @@ h1{
     max-width: 100%;
 }
 
-.imagen1 {
-    margin-right: 100px; /* Espacio entre las imágenes */
+.imagen {
+    margin-right: 200px; /* Espacio entre las imágenes */
     width: 300px; /* Ancho de las imágenes */
-    height: 500px; /* Altura ajustada automáticamente */
+    height: 300px; /* Altura ajustada automáticamente */
 }
-.imagen2 {
-    margin-left: 150px; /* Espacio entre las imágenes */
-    width: 600px; /* Ancho de las imágenes */
-    height: 500px; /* Altura ajustada automáticamente */
-}
-.imagen3 {
-    margin-right: 100px; /* Espacio entre las imágenes */
-    width: 400px; /* Ancho de las imágenes */
-    height: 450px; /* Altura ajustada automáticamente */
-}
-.imagen4 {
-    margin-right: 150px; /* Espacio entre las imágenes */
-    width: 400px; /* Ancho de las imágenes */
-    height: 350px; /* Altura ajustada automáticamente */
-}
-.imagen5 {
-    margin-left: 100px; /* Espacio entre las imágenes */
-    width: 300px; /* Ancho de las imágenes */
-    height: 350px; /* Altura ajustada automáticamente */
-}
-.imagen6 {
-    margin-left: 150px; /* Espacio entre las imágenes */
-    width: 300px; /* Ancho de las imágenes */
-    height: 350px; /* Altura ajustada automáticamente */
-}
+@media(max-width:1315px) {
+    .imagen {
+        margin-right: 100px; /* Espacio entre las imágenes */
+        width: 300px; /* Ancho de las imágenes */
+        height: 300px; /* Altura ajustada automáticamente */
+    }
+    }
+@media(max-width:1181px) {
+    .imagen {
+        margin-right: 50px; /* Espacio entre las imágenes */
+        width: 300px; /* Ancho de las imágenes */
+        height: 300px; /* Altura ajustada automáticamente */
+        }
+        }
+@media(max-width:1047px) {
+    .imagen {
+        margin-right: 50px; /* Espacio entre las imágenes */
+        width: 250px; /* Ancho de las imágenes */
+        height: 300px; /* Altura ajustada automáticamente */
+                }
+                }
+@media(max-width:890px) {
+    .imagen {
+        margin-right: 50px; /* Espacio entre las imágenes */
+        width: 200px; /* Ancho de las imágenes */
+        height: 300px; /* Altura ajustada automáticamente */
+                }
+                }
+@media(max-width:740px) {
+    .imagen {
+        margin-right: 40px; /* Espacio entre las imágenes */
+        width: 170px; /* Ancho de las imágenes */
+        height: 300px; /* Altura ajustada automáticamente */
+                }
+                }
 .pie-pagina{
     width: 100%;
     background-color: dimgray;
