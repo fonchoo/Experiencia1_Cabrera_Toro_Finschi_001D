@@ -35,7 +35,6 @@ body{
     border-radius: 30px;
 }
 
-
 .sectionimagen{
     background-image: url(../imagenes/logoentero.png);/*la imagen al estar en otra carpeta se coloca .. y despues donde se encuentra*/
     background-repeat: no-repeat;
@@ -101,15 +100,21 @@ h2{
 
 h3{
     color:#fff;
-    background-color:dimgray;
+    background-color:rgb(42, 42, 42);
     display: inline-block; /*enlace se comportara como un bloque, podremos determinar un ancho y alto*/
-    padding: 0.3rem 0.6rem; /*largo ancho del boton*/
+    padding: 0.4rem 0.8rem; /*largo ancho del boton*/
+    border-radius: 0.5rem; /*esquinas redondeadas*/
+    border: none; /*cualquier elemento que rodea se eliminara*/
 }
 
 .btn{
     color:rgb(255, 248, 248);
     font-size: 1.2rem; /*agrandar textos*/
-    background-color:dimgray;
+    background-color:rgb(42, 42, 42);
+    padding: 0.3rem 0.6rem; /*largo ancho del boton*/
+    border-radius: 0.5rem; /*esquinas redondeadas*/
+    border: none; /*cualquier elemento que rodea se eliminara*/
+
 }
 
 .btn:hover{
@@ -224,3 +229,6 @@ las redes sociales*/
     }
     
 }
+
+
+
