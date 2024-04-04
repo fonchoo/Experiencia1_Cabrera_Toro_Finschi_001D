@@ -31,6 +31,7 @@ body{
     color: black; /*color de las letras al pasar el cursor*/
 }
 
+
 .sectionimagen{
     background-image: url(../imagenes/logoentero.png);/*la imagen al estar en otra carpeta se coloca .. y despues donde se encuentra*/
     background-repeat: no-repeat;
