@@ -1,8 +1,16 @@
 
 /*css maca*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 16px;
-    background-color:blanchedalmond
+    background-color:blanchedalmond;
+    width: 100%;
+    height: 100vh;
 }
 
 .titulo{
@@ -10,29 +18,39 @@ body{
 }
 
 .nav-bg{
-    background-color:rgb(233, 202, 164);/*color barra menu*/
+    background-color: rgb(233, 202, 164); /*para el color de fondo de la barra de menu */
 }
 
-
+.contenedor1{ 
+    max-width: 120rem; /*tomara el maximo de 1200 megapixeles.... esto es complementario para el tema de lo responsive */
+    margin:0 auto;
+}
+    
 .navegacion-principal{
-    display: flex; /*elementos se ordenan de izquierda a derecha .. ademas habilita propiedades de flexbock*/
-    justify-content:space-evenly; /*distribuye los elementos horizontalmente .. space around los distribuye mas centrado*/
+    display: flex; /*se habilitan los elementos de izquierda a derecha .. ademas habilita las propiedades de flexbock tendremos accesos a nuevas propiedades */  
+    justify-content: space-evenly; /*justify content los distribuye horizontalmente.... space between los separa*/    
     align-items: center;
 }
-
-
-.navegacion-principal a{
-    text-decoration: none; /*elimina el subrayado de los enlaces*/
-    color: aliceblue;
-    font-size: 1rem; /*1 rem equivale a 10px .. el rem se adapta mejor a los dispositivos con gran cantidad de megapixeles*/
-    font-weight: bold;
-    padding: 1rem; /*relleno de la palabra dentro de los bordes definidos*/
+    
+.navegacion-principal a { /*para modificar las palabras dentro del menu*/
+    
+    text-decoration: none; /*para eliminar el subrayado de los enlaces*/
+    color:aliceblue; /*color a las palabras*/
+    font-size: 1rem;
+    font-weight: bold; /*para dejar la palabra en negrita*/
+    padding: 1rem;/*esto hara que todo el entorno de las letras al llevar el puntero se visualice 
+    el color que coloque abajo en .navegacion-principal a:hover ... sera de color negro*/  
+}
+    
+.navegacion-principal a:hover{ /* esto hace que las palabras de la clase de navagacion-principal a tomen un color de fondo (color chocolate que fue el que elegi) al llevar el puntero */
+    background-color: tan;
+    color:black; /*cambiara el color de las palabras al acercar el puntero eran blancas queran en negras*/
+    border-radius: 30px;
 }
 
-.navegacion-principal a:hover { /*hoover hace que las palabras dentro de navegacion principal realicen ciertas cosas al acercar el puntero*/
-    background-color:tan; /*color del fondo*/
-    color: black; /*color de las letras al pasar el cursor*/
-    border-radius: 30px;
+.img-nav{
+    max-width: 100%;
+    height: 60px;
 }
 
 .sectionimagen{
