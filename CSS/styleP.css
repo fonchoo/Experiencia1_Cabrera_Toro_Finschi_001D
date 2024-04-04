@@ -179,7 +179,7 @@ las redes sociales*/
     color:aliceblue; /*color a las palabras*/
     font-size: 1rem;
     font-weight: bold; /*para dejar la palabra en negrita*/
-    padding: 1rem 5rem; /*esto hara que todo el entorno de las letras al llevar el puntero se visualice 
+    padding: 1rem; /*esto hara que todo el entorno de las letras al llevar el puntero se visualice 
     el color que coloque abajo en .navegacion-principal a:hover ... sera de color negro*/  
 }
     
