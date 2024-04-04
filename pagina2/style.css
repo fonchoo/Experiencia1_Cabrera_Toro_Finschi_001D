@@ -1,3 +1,4 @@
+
 /*css maca*/
 body{
     font-size: 16px;
@@ -9,26 +10,29 @@ body{
 }
 
 .nav-bg{
-    background-color:rgb(234, 191, 74);/*color barra menu*/
+    background-color:rgb(233, 202, 164);/*color barra menu*/
 }
 
 
 .navegacion-principal{
     display: flex; /*elementos se ordenan de izquierda a derecha .. ademas habilita propiedades de flexbock*/
-    justify-content:space-around; /*distribuye los elementos horizontalmente .. space around los distribuye mas centrado*/
+    justify-content:space-evenly; /*distribuye los elementos horizontalmente .. space around los distribuye mas centrado*/
+    align-items: center;
 }
 
 
 .navegacion-principal a{
     text-decoration: none; /*elimina el subrayado de los enlaces*/
     color: aliceblue;
-    font-size: 1.5rem; /*1 rem equivale a 10px .. el rem se adapta mejor a los dispositivos con gran cantidad de megapixeles*/
-    padding: 0.5rem; /*relleno de la palabra dentro de los bordes definidos*/
+    font-size: 1rem; /*1 rem equivale a 10px .. el rem se adapta mejor a los dispositivos con gran cantidad de megapixeles*/
+    font-weight: bold;
+    padding: 1rem; /*relleno de la palabra dentro de los bordes definidos*/
 }
 
 .navegacion-principal a:hover { /*hoover hace que las palabras dentro de navegacion principal realicen ciertas cosas al acercar el puntero*/
-    background-color: rgb(176, 171, 171); /*color del fondo*/
+    background-color:tan; /*color del fondo*/
     color: black; /*color de las letras al pasar el cursor*/
+    border-radius: 30px;
 }
 
 
@@ -117,7 +121,7 @@ h3{
 .btnvideo{
     display: inline-block; /*enlace se comportara como un bloque, podremos determinar un ancho y alto*/
     padding: 0.4rem 0.8rem; /*largo ancho del boton*/
-    background-color:rgb(244, 217, 150); 
+    background-color:rgb(233, 202, 164); 
     color: #fff;
     text-decoration: none; /*eliminacion subrayado*/
     border-radius: 0.5rem; /*esquinas redondeadas*/
@@ -126,7 +130,8 @@ h3{
 }
 
 .btnvideo:hover {
-    background-color: rgb(176, 171, 171); 
+    background-color:tan; 
+    color:black;
 }
 
 
@@ -219,5 +224,3 @@ las redes sociales*/
     }
     
 }
-
-
