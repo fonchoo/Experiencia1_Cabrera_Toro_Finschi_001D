@@ -26,6 +26,47 @@
             max-width: 100%; /* El párrafo se ajusta al ancho máximo del contenedor */
             font-size: 40px; /* Tamaño de fuente del párrafo */
         }
+
+        .contenedor1{ 
+            max-width: 120rem; /*tomara el maximo de 1200 megapixeles.... esto es complementario para el tema de lo responsive */
+            margin:0 auto;
+        }
+            
+        .navegacion-principal{
+            display: flex; /*se habilitan los elementos de izquierda a derecha .. ademas habilita las propiedades de flexbock tendremos accesos a nuevas propiedades */  
+            justify-content: space-evenly ; /*justify content los distribuye horizontalmente.... space between los separa*/    
+            align-items: center;
+        }
+            
+        .navegacion-principal a { /*para modificar las palabras dentro del menu*/
+            
+            text-decoration: none; /*para eliminar el subrayado de los enlaces*/
+            color:aliceblue; /*color a las palabras*/
+            font-size: 1rem;
+            font-weight: bold; /*para dejar la palabra en negrita*/
+            padding: 1rem; /*esto hara que todo el entorno de las letras al llevar el puntero se visualice 
+            el color que coloque abajo en .navegacion-principal a:hover ... sera de color negro*/  
+        }
+            
+        .navegacion-principal a:hover{ /* esto hace que las palabras de la clase de navagacion-principal a tomen un color de fondo (color chocolate que fue el que elegi) al llevar el puntero */
+            background-color: tan;
+            color:black; /*cambiara el color de las palabras al acercar el puntero eran blancas queran en negras*/
+            border-radius: 30px;
+            
+        }
+
+        .img-nav{
+            max-width: 60px;
+            height: 60px;
+        }
+
+        .back a{
+            text-decoration: none;
+        }
+
+        .back{
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -34,7 +75,7 @@
     <!-- Encabezado -->
     <h1 align="center">PetDog & Amigos</h1>
     <div class="nav-bg">
-        <nav class="navegacion-principal contenedor"> <!-- Barra de navegación -->
+        <nav class="navegacion-principal contenedor1"> <!-- Barra de navegación -->
             <img class="img-nav" src="images/logo.jpg" alt=""> <!-- Logo -->
             <a href="index.html">Inicio</a> <!-- Enlace a la página de inicio -->
             <a href="#">Quienes Somos</a> <!-- Enlace a la página "Quienes Somos" -->
@@ -53,6 +94,9 @@
             
             Con su fórmula de larga duración, LindoCat garantiza un ambiente fresco y acogedor para tu mascota, brindándote tranquilidad y comodidad.<br>
         </p>
+    </div>
+    <div class="back">
+        <a href="galeria.html">Volver a la Galeria de Productos</a>
     </div>
     <!-- Pie de página -->
     <footer class="pie-pagina">
