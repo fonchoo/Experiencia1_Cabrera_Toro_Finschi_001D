@@ -208,15 +208,15 @@ las redes sociales*/
     
 }
 
-.img-nav{
-    max-width: 60px;
-    height: 60px;
+.img-nav {
+    max-width: 60px; /* Establece el ancho máximo de la imagen de navegación en 60 píxeles */
+    height: 60px; /* Establece la altura de la imagen de navegación en 60 píxeles */
 }
 
-.back a{
-    text-decoration: none;
+.back a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces dentro del elemento .back */
 }
 
-.back{
-    text-align: center;
+.back {
+    text-align: center; /* Centra horizontalmente el contenido del elemento .back */
 }
