@@ -180,7 +180,7 @@ las redes sociales*/
     background-color: rgb(233, 202, 164); /*para el color de fondo de la barra de menu */
 }
 
-.contenedor{ 
+.contenedor1{ 
     max-width: 120rem; /*tomara el maximo de 1200 megapixeles.... esto es complementario para el tema de lo responsive */
     margin:0 auto;
 }
@@ -208,7 +208,15 @@ las redes sociales*/
     
 }
 
-.img-nav{
-    max-width: 60px;
-    height: 60px;
+.img-nav {
+    max-width: 60px; /* Establece el ancho máximo de la imagen de navegación en 60 píxeles */
+    height: 60px; /* Establece la altura de la imagen de navegación en 60 píxeles */
+}
+
+.back a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces dentro del elemento .back */
+}
+
+.back {
+    text-align: center; /* Centra horizontalmente el contenido del elemento .back */
 }
