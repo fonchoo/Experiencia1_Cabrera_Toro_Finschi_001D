@@ -11,6 +11,79 @@ body{
     background-color: blanchedalmond;
 }
 
+.header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 30px;
+}
+
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+}
+
+.header .nav-links li:hover{
+    transition: all 0.3s;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: bisque;
+}
+
+.header .btn button{
+    font-weight: 700;
+    padding: 9px 25px;
+    border: none;
+    color: lightslategray;
+    background-color: wheat;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 50px;
+}
+
+
+.header .btn button:hover{
+    background-color: lightslategray;
+    color: bisque;
+    transform: scale(1.2);
+}
+
+.fadein{
+    animation: fadein 1s forwards;
+}
+
+@keyframes fadein{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Hasta aca llega la configuracion del header */
+
 .container-1{
     display: flex;
     justify-content: center;
@@ -196,6 +269,7 @@ las redes sociales*/
 }
 /* ------------------------------------------------ */
 .slider-wrapper{
+    float: left;
     position: relative;
     max-width: 500px;
     margin: 0 auto;
