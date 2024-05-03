@@ -27,8 +27,8 @@ h1 {
 }
 
 .imagen {
-    margin-right: 200px; /* Espacio entre las imágenes */
-    width: 300px; /* Ancho de las imágenes */
+    margin-right: 250px; /* Espacio entre las imágenes */
+    width: 250px; /* Ancho de las imágenes */
     height: 300px; /* Altura ajustada automáticamente */
 }
 
