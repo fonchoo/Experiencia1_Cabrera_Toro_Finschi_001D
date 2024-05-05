@@ -28,7 +28,7 @@ h1 {
 
 .imagen {
     margin-right: 250px; /* Espacio entre las imágenes */
-    width: 250px; /* Ancho de las imágenes */
+    width: 200px; /* Ancho de las imágenes */
     height: 300px; /* Altura ajustada automáticamente */
 }
 
@@ -36,9 +36,9 @@ h1 {
 
 @media(max-width:1315px) {
     .imagen {
-        margin-right: 100px;
+        margin-right: 200px;
         /* Espacio entre las imágenes */
-        width: 300px;
+        width: 200px;
         /* Ancho de las imágenes */
         height: 300px;
         /* Altura ajustada automáticamente */
@@ -47,9 +47,9 @@ h1 {
 
 @media(max-width:1181px) {
     .imagen {
-        margin-right: 50px;
+        margin-right: 100px;
         /* Espacio entre las imágenes */
-        width: 300px;
+        width: 200px;
         /* Ancho de las imágenes */
         height: 300px;
         /* Altura ajustada automáticamente */
@@ -58,9 +58,9 @@ h1 {
 
 @media(max-width:1047px) {
     .imagen {
-        margin-right: 50px;
+        margin-right: 80px;
         /* Espacio entre las imágenes */
-        width: 250px;
+        width: 200px;
         /* Ancho de las imágenes */
         height: 300px;
         /* Altura ajustada automáticamente */
@@ -88,10 +88,21 @@ h1 {
         /* Altura ajustada automáticamente */
     }
 }
+@media(max-width:632px) {
+        .imagen {
+            margin-right: 40px;
+            /* Espacio entre las imágenes */
+            width: 130px;
+            /* Ancho de las imágenes */
+            height: 300px;
+            /* Altura ajustada automáticamente */
+        }
+    
+}
 .pie-pagina{
     width: 100%;
     background-color: dimgray;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .pie-pagina .grupo-1{
@@ -101,7 +112,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 20px 0px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -209,8 +219,8 @@ las redes sociales*/
 }
 
 .img-nav {
-    max-width: 60px; /* Establece el ancho máximo de la imagen de navegación en 60 píxeles */
-    height: 60px; /* Establece la altura de la imagen de navegación en 60 píxeles */
+    max-width: 200px; /* Establece el ancho máximo de la imagen de navegación en 60 píxeles */
+    height: 80px; /* Establece la altura de la imagen de navegación en 60 píxeles */
 }
 
 .back a {
